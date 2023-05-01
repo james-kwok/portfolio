@@ -60,13 +60,32 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
           <div className="pt-4 w-[80%]">
             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                <FaLinkedinIn />
+                <Link
+                  href="https://www.linkedin.com/in/itsjameskwok/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <FaLinkedinIn />
+                </Link>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                <FaGithub />
+                <Link
+                  href="https://github.com/james-kwok"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <FaGithub />
+                </Link>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                <AiOutlineMail />
+                <Link
+                  href="/"
+                  onClick={() =>
+                    (window.location.href = 'mailto:kinkwan.j@gmail.com')
+                  }
+                >
+                  <AiOutlineMail />
+                </Link>
               </div>
             </div>
           </div>
