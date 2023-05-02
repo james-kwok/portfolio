@@ -43,18 +43,18 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
         <div className="py-4 flex flex-col">
           <ul>
             <Link href="/">
-              <li className="py-4 text-sm">Home</li>
+              <li className="py-4 text-sm hover:text-[#161616]">Home</li>
             </Link>
             <Link href="/">
-              <li className="py-4 text-sm">About</li>
+              <li className="py-4 text-sm hover:text-[#161616]">About</li>
             </Link>
             <Link href="/">
-              <li className="py-4 text-sm">Projects</li>
+              <li className="py-4 text-sm hover:text-[#161616]">Projects</li>
             </Link>
           </ul>
           <div className="pt-4 w-[80%]">
-            <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+            <div className="flex items-center justify-between my-4 w-[35%] sm:w-[80%]">
+              <div className="p-1 cursor-pointer hover:scale-110 ease-in duration-200">
                 <Link
                   href="https://www.linkedin.com/in/itsjameskwok/"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
                   <FaLinkedinIn />
                 </Link>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+              <div className="p-1 cursor-pointer hover:scale-110 ease-in duration-200">
                 <Link
                   href="https://github.com/james-kwok"
                   rel="noopener noreferrer"
@@ -72,7 +72,7 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
                   <FaGithub />
                 </Link>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+              <div className="p-1 cursor-pointer hover:scale-110 ease-in duration-200">
                 <Link
                   href="/"
                   onClick={() =>
