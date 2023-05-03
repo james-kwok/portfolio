@@ -93,7 +93,7 @@ const Projects = () => {
       </div>
       <div className="flex justify-center flex-wrap">
         <p className="w-full md:text-center text-xl mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#e9e9e9] to-[#515151]">
-          Want to learn more? Let's connect.
+          Want to learn more? Let&apos;s connect.
         </p>
         <div className="flex items-center justify-around max-w-[250px] m-auto py-4">
           <div className="rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
