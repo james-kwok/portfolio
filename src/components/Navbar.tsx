@@ -10,7 +10,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-full h-20 z-[100] mt-8">
+    <div className="w-full h-20 z-[100] pt-8">
       <div className="flex justify-end items-center w-full h-full px-16 2xl:px-24">
         <div>
           <ul className="hidden md:flex">
@@ -19,14 +19,29 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#about">
               <li className="mx-6 text-sm hover:underline decoration-2">
                 About
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#projects">
               <li className="mx-6 text-sm hover:underline decoration-2">
-                Projects
+                Work
+              </li>
+            </Link>
+            <Link href="">
+              <li className="mx-6 text-sm hover:underline decoration-2">
+                Photography
+              </li>
+            </Link>
+            <Link
+              href="/assets/kk-james-resume-2023.pdf"
+              download="kinkwan-james-resume-2023"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <li className="mx-6 text-sm hover:underline decoration-2">
+                Resumé
               </li>
             </Link>
           </ul>

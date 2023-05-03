@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import profile from '../../public/assets/about.jpg';
 
 const About = () => {
   return (
-    <div className="w-full px-16 md:px-24">
-      <h2 className="text-base w-full mb-8 md:mb-16 md:text-center">About Me</h2>
+    <div id="about" className="w-full px-16 md:px-24">
       <div className="max-w-[1240px] w-full flex flex-wrap justify-center">
         <div className="md:w-[50%] m-auto flex justify-center md:order-2">
           <Image
@@ -33,10 +33,10 @@ const About = () => {
             I'm open to work at the moment and I'm seeking full-time
             opportunties as a front-end developer or any design / dev hybrid
             roles. Get in touch
-            <a className="text-blue-300" href="mailto:kinkwan.j@gmail.com">
+            <Link className="text-blue-300" href="mailto:kinkwan.j@gmail.com">
               {' '}
               via email
-            </a>
+            </Link>
             , or connect with me on social media!
           </p>
         </div>
