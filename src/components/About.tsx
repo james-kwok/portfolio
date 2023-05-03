@@ -33,7 +33,13 @@ const About = () => {
             I&apos;m open to work at the moment and seeking full-time
             opportunties as a front-end developer or any design / dev hybrid
             roles. Get in touch
-            <Link className="text-blue-300" href="mailto:kinkwan.j@gmail.com">
+            <Link
+              className="text-blue-300"
+              href="/"
+              onClick={() =>
+                (window.location.href = 'mailto:kinkwan.j@gmail.com')
+              }
+            >
               {' '}
               via email
             </Link>
