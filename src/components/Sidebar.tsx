@@ -34,7 +34,9 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
             </div>
           </div>
           <div className="border-b border-gray-300 my-4">
-            <p className="w-[100%] md:w-[90%] text-[#161616] mt-6">Kin Kwan (James) Kwok</p>
+            <p className="w-[100%] md:w-[90%] text-[#161616] mt-6">
+              Kin Kwan (James) Kwok
+            </p>
             <p className="w-[100%] md:w-[90%] pb-4 mt-2 text-sm">
               Developer & Designer 👨‍💻
             </p>
@@ -45,10 +47,10 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
             <Link href="/">
               <li className="py-4 text-sm hover:text-[#161616]">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="#about">
               <li className="py-4 text-sm hover:text-[#161616]">About</li>
             </Link>
-            <Link href="/">
+            <Link href="#projects">
               <li className="py-4 text-sm hover:text-[#161616]">Projects</li>
             </Link>
           </ul>

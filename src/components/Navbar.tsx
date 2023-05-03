@@ -29,11 +29,6 @@ const Navbar = () => {
                 Work
               </li>
             </Link>
-            <Link href="">
-              <li className="mx-6 text-sm hover:underline decoration-2">
-                Photography
-              </li>
-            </Link>
             <Link
               href="/assets/kk-james-resume-2023.pdf"
               download="kinkwan-james-resume-2023"

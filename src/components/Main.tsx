@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
@@ -14,13 +15,32 @@ const Main = () => {
           <p className="pb-8 text-xs">Based in Toronto, Ontario</p>
           <div className="flex items-center justify-around max-w-[250px] m-auto py-4">
             <div className="rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-              <FaLinkedinIn />
+              <Link
+                href="https://www.linkedin.com/in/itsjameskwok/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaLinkedinIn />
+              </Link>
             </div>
             <div className="rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-              <FaGithub />
+              <Link
+                href="https://github.com/james-kwok"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaGithub />
+              </Link>
             </div>
             <div className="rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-              <AiOutlineMail />
+              <Link
+                href="/"
+                onClick={() =>
+                  (window.location.href = 'mailto:kinkwan.j@gmail.com')
+                }
+              >
+                <AiOutlineMail />
+              </Link>
             </div>
           </div>
         </div>
