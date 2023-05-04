@@ -45,13 +45,29 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
         <div className="py-4 flex flex-col">
           <ul>
             <Link href="/">
-              <li className="py-4 text-sm hover:text-[#161616]">Home</li>
+              <li className="py-4 text-sm hover:underline decoration-2">
+                Home
+              </li>
             </Link>
             <Link href="#about">
-              <li className="py-4 text-sm hover:text-[#161616]">About</li>
+              <li className="py-4 text-sm hover:underline decoration-2">
+                About
+              </li>
             </Link>
             <Link href="#projects">
-              <li className="py-4 text-sm hover:text-[#161616]">Projects</li>
+              <li className="py-4 text-sm hover:underline decoration-2">
+                Projects
+              </li>
+            </Link>
+            <Link
+              href="/assets/kk-james-resume-2023.pdf"
+              download="kinkwan-james-resume-2023"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <li className="mx-6 text-sm hover:underline decoration-2">
+                Resumé
+              </li>
             </Link>
           </ul>
           <div className="pt-4 w-[80%]">
