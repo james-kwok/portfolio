@@ -65,7 +65,7 @@ const Sidebar: React.FC<Props> = ({ nav, handleNav }) => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <li className="mx-6 text-sm hover:underline decoration-2">
+              <li className="py-4 text-sm hover:underline decoration-2">
                 Resumé
               </li>
             </Link>
