@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full px-16 md:px-24 md:mt-32">
       {/* Dev */}
-      <p className="w-full my-8 text-center">Dev Work</p>
+      <p className="w-full my-8 text-center">Work Experience</p>
       <div className="flex flex-col md:flex-row md:flex-wrap md:justify-between pb-8">
         <div className="w-[100%] md:w-[31%] bg-[#1a1a1a] border-2 p-8 border-[#242424] mb-8">
           <p className="text-xs leading-8">Zoomie 🐶 - Full Stack Web App</p>
@@ -52,13 +52,9 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-
-      {/* Design */}
-
-      <p className="w-full my-8 text-center">Design Work</p>
       <div className="flex flex-col md:flex-row md:flex-wrap md:justify-between pb-8">
         <div className="w-[100%] md:w-[31%] bg-[#1a1a1a] border-2 p-8 border-[#242424] mb-8">
-          <p className="text-xs leading-8">Sprout 🌱 - UX/UI</p>
+          <p className="text-xs leading-8">Sprout 🌱 - UX/UI & Frontend</p>
           <Link
             href="https://www.getsprout.co/"
             rel="noopener noreferrer"
@@ -87,7 +83,16 @@ const Projects = () => {
             target="_blank"
             className="text-blue-300 text-xs leading-8"
           >
-            Mobile App
+            Mobile App Re-design
+          </Link>
+          <br></br>
+          <Link
+            href="https://hk.jobsdb.com/hk?icmpid=db_global_landing_page"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-blue-300 text-xs leading-8"
+          >
+            Search UI Refresh
           </Link>
         </div>
       </div>
